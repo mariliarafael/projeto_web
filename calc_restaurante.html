@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de restaurante</title>
+    <script src="script_calc.js" defer></script>
+</head>
+<body>
+    <h1>calculadora de restaurante</h1>
+    <form>
+        valor da conta: <input type="text" id="valor"> <br><br>
+        numero de pessoas: <input type="number" id="pessoa" min="1"> <br><br>
+        <input type="submit" value="calcular" onclick="calc_restaurante()"> 
+        <input type="reset" value="limpar">
+
+    </form>
+    <div>
+        <h3>  resultado </h3>
+        <p id="resultado1"> </p>
+        <p id="resultado2"> </p>
+        <p id="resultado3"> </p>
+        <p id="resultado4"> </p>
+
+    </div>
+    
+</body>
+
+</html>
